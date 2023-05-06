@@ -1,4 +1,5 @@
 #!/bin/bash
+npm run build
 rsync -arP --delete public bear@bear.oops.wtf:/mnt/www/front
 
 git add .
