@@ -16,6 +16,11 @@ left: 0px;
 top: 0px;
 }
 
+
+.text-green-500 {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94 / var(--tw-text-opacity));
+  }
 @font-face {
     font-family: 'Perfect DOS VGA 437';
     font-style: normal;
