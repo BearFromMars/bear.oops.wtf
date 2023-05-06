@@ -1,7 +1,6 @@
-#!/bin/sh
-
-rsync -arP --delete public/ bear@bear.oops.wtf:/mnt/www/front
+#!/bin/bash
+rsync -arP --delete public/ bear@bear.oops.wtf:/mnt/www/front/public
 
 git add .
-git commit -m "auto commit on build"
+git commit -m "pushing updates to github & bear.oops.wtf"
 git push origin main

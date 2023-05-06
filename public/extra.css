@@ -1,0 +1,35 @@
+
+.screen-overlay {    
+background: linear-gradient(
+    rgb(24,24,24),
+    rgb(32,32,32) 3px,
+    transparent 3px,
+    transparent 9px
+);
+background-size: 100% 9px;
+height: 100%;
+width: 100%;
+animation: pan-overlay 22s infinite linear;
+position: absolute;
+z-index: 10;
+left: 0px;
+top: 0px;
+}
+
+@font-face {
+    font-family: 'Perfect DOS VGA 437';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Perfect DOS VGA 437'), url('https://fonts.cdnfonts.com/s/7377/Perfect DOS VGA 437.woff') format('woff');
+}
+@font-face {
+    font-family: 'Perfect DOS VGA 437 Win';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Perfect DOS VGA 437 Win'), url('https://fonts.cdnfonts.com/s/7377/Perfect DOS VGA 437 Win.woff') format('woff');
+}
+
+.vga-font {
+    font-family: 'Perfect DOS VGA 437';
+    src: local('Perfect DOS VGA 437'), url('https://fonts.cdnfonts.com/s/7377/Perfect DOS VGA 437.woff') format('woff');
+}
